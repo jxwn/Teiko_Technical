@@ -1,0 +1,6 @@
+population,responder_mean_%,non_responder_mean_%,p_value,significant
+b_cell,9.8,10.0,0.1715,no
+cd8_t_cell,24.88,24.94,0.7687,no
+cd4_t_cell,30.54,29.9,0.005,yes
+nk_cell,14.84,15.07,0.193,no
+monocyte,19.94,20.08,0.4664,no
