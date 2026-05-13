@@ -27,3 +27,6 @@ If this had to scale to hundreds of projects and thousands of samples I'd split 
 I used 3 files to make each piece do one job, which in my opinion makes the code easier to read.
 I chose to use pandas since it keeps the code shorter and the analysis in the assignment was mostly filtering and grouping.
 Lastly I used streamlit for the dashboard because in my classes we used it and it was the simplest way I know of to make a dashboard.
+
+## Dashboard Link
+https://john-lam-teiko.streamlit.app/
