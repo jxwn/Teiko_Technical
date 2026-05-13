@@ -7,6 +7,11 @@ from scipy import stats
 DB_FILE = "cell_count.db"
 CELL_TYPES = ["b_cell", "cd8_t_cell", "cd4_t_cell", "nk_cell", "monocyte"]
 
+import os
+if not os.path.exists(DB_FILE):
+    import load_data
+    load_data.main()
+
 st.set_page_config(page_title="Loblaw Bio Dashboard", layout="wide")
 st.title("Cell Count Dashboard")
 
